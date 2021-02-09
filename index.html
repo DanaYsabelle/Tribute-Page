@@ -7,44 +7,51 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
     <title>Tribute Page</title>
   </head>
 
   <body>
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval ="2000">
     <ol class="carousel-indicators">
       <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
       <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
       <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active"></div>
-       <div class="overlay-image" style="background-image: url(./Images/miyazaki.jpg);"></div>
+      <div class="carousel-item active">
+        <div class="overlay-image" style="background-image: url(./Images/miyazaki.jpg);"></div>
       <div class="container">
         <h1>Hayao Miyazaki<h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis placeat porro quod. Excepturi temporibus eaque nisi, adipisci distinctio culpa ut, voluptatem maiores reiciendis nihil, aspernatur molestias necessitatibus earum consequuntur.</p>
-          <a href= "#" class="btn btn-lg btn-primary">Read More</a>
+          <!--<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
+               </div>
       </div>
-      </div>
-    <div class="carousel-item"> 
+    <div class="carousel-item">
+      <div class="overlay-image" style="background-image: url(./Images/miyazaki_drawing.jpg);"></div>
       <div class="container">
         <h1>Hayao Miyazaki<h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis placeat porro quod. Excepturi temporibus eaque nisi, adipisci distinctio culpa ut, voluptatem maiores reiciendis nihil, aspernatur molestias necessitatibus earum consequuntur.</p>
-          <a href= "#" class="btn btn-lg btn-primary">Read More</a>
+         <!---<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
       </div>
       
     </div>
     <div class="carousel-item"> 
+      <div class="overlay-image" style="background-image: url(./Images/miyazaki_awards.jpg);"></div> 
       <div class="container">
         <h1>Hayao Miyazaki<h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis placeat porro quod. Excepturi temporibus eaque nisi, adipisci distinctio culpa ut, voluptatem maiores reiciendis nihil, aspernatur molestias necessitatibus earum consequuntur.</p>
-          <a href= "#" class="btn btn-lg btn-primary">Read More</a>
+          <!--<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
       </div>
       
     </div>
     </div>
-    <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="next">
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
       <span class="visually-hidden">Previous</span>
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
@@ -54,10 +61,27 @@
     </a>
   </div>
 
+  <h1 id="title">Director, Animator, Producer,<br> Screenwriter, <br> Author and Manga Artist.</h1>
+<main id="main">
 
+  <figure id="img-div">
+    <img id="image" src="./Images/studioghibli_logo.png" alt="Young Hayao Miyazaki">
+      <figcaption id="img-caption">
+        The Studio Ghibli logo with one of their characters, Totoro, as the studio's muse.
+      </figcaption>
+    </figure>
+<section id="tribute-info">
+  <p>Born in Bunkyō ward of Tokyo, Miyazaki expressed interest in manga and animation from an early age, and he joined Toei Animation in 1963. During his early years at Toei Animation he worked as an in-between artist and later collaborated with director Isao Takahata. Notable films to which Miyazaki contributed at Toei include Doggie March and Gulliver's Travels Beyond the Moon. He provided key animation to other films at Toei, such as Puss in Boots and Animal Treasure Island, before moving to A-Pro in 1971, where he co-directed Lupin the Third Part I alongside Takahata. After moving to Zuiyō Eizō (later known as Nippon Animation) in 1973, Miyazaki worked as an animator on World Masterpiece Theater, and directed the television series Future Boy Conan. He joined Telecom Animation Film/Tokyo Movie Shinsha in 1979 to direct his first feature films, The Castle of Cagliostro in 1979 and Nausicaä of the Valley of the Wind in 1984, as well as the television series Sherlock Hound.</p>
+  <br>
+  <p>Miyazaki co-founded Studio Ghibli in 1985. He directed numerous films with Ghibli, including Castle in the Sky (1986), My Neighbor Totoro (1988), Kiki's Delivery Service (1989), and Porco Rosso (1992). The films were met with critical and commercial success in Japan. Miyazaki's film Princess Mononoke was the first animated film ever to win the Japan Academy Prize for Picture of the Year, and briefly became the highest-grossing film in Japan following its release in 1997;[a] its distribution to the Western world greatly increased Ghibli's popularity and influence outside Japan. His 2001 film Spirited Away became the highest-grossing film in Japanese history, winning the Academy Award for Best Animated Feature at the 75th Academy Awards, and is frequently ranked among the greatest films of the 2000s. Miyazaki's later films—Howl's Moving Castle (2004), Ponyo (2008), and The Wind Rises (2013)—also enjoyed critical and commercial success. Following the release of The Wind Rises, Miyazaki announced his retirement from feature films, though he returned to work on a new feature film in 2016.</p>
+<br>
+<p>For more information about Hayao Miyazaki, click <a href="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank">here</a>.</p>
+</section>
+</main>
 
+<blockquote>"<br>Always believe in yourself. <br >Do this and no matter where you are,<br> you will have nothing to fear.<br>"</blockquote>
 
-
+<img id="munchies" src="./Images/munchkins copy.png" alt="">
 
     <!-- Optional JavaScript; choose one of the two! -->
 
